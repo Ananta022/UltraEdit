@@ -12,6 +12,12 @@
     justify-content: space-between;
     align-items: center;
 }
+.humburgur{
+    
+    display: none;
+    color: #00b6d1;
+    font-size: 1.5rem;
+}
 .navbar i{
     margin-left: 0.3rem;
 }
@@ -33,6 +39,16 @@
 .logo{
     width:11rem ;
     height:3.5rem ;
+}
+
+@media (max-width:980px){
+    .nav-list{
+        display: none;
+    }
+    .humburgur{
+        display: initial;
+    }
+
 }
 .main{
     margin: 0 auto;
